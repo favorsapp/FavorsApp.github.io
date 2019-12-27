@@ -42,7 +42,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: #FA8688
+    /* color: #d6619c; */
 }
 
 h1 {
@@ -55,13 +56,13 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: #b30015;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #0091FF;
+    color: #b30015;
     /* color: #633991; */
     font-size: 33px;
     font-weight: 500;
@@ -70,13 +71,13 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #633991;
+    color: #870017;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #633991;
+    color: #870017;
     margin-bottom: 0.7rem;
 }
 
@@ -90,7 +91,7 @@ p.lead {
 }
 
 .text-primary {
-    color: #e38cb7 !important;
+    color: #fa8688 !important;
 }
 
 .light-font {
@@ -114,7 +115,8 @@ p.lead {
     background-image: -moz-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
     background-image: -webkit-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
     background-image: -ms-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    background-image: linear-gradient( 122deg, #fa8688 0%, #fa8688 100%);
+    /* background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%); */
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -192,7 +194,7 @@ p.lead {
     /* background-color: rgb(74, 13, 143); */
     background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
     background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: linear-gradient(135deg, rgb(122, 215, 240) 0%, rgb(0, 166, 215) 100%);
+    background: linear-gradient(135deg, rgb(250, 134, 136) 0%, rgb(135, 0, 23) 100%);
     /* background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%); */
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -245,7 +247,7 @@ header {
 
 .bg-gradient {
     /* This adjusts home background gradient */
-    background-image: -webkit-linear-gradient( 135deg, rgba(122, 215, 240, 1) 0%, rgba(0, 166, 215, 1) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(135, 0, 23, 1) 0%, rgba(250, 134, 136, 1) 100%);
 
     /* The original */
     /* background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
@@ -354,7 +356,8 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #fa8688;
+    /* color: #f5378e; */
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -374,8 +377,10 @@ header {
 .ui-steps li:hover .circle-icon {
     background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
     background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -ms-linear-gradient( 122deg, #Fa8688 0%, #fa8688 100%);
+    /* background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%); */
+    background-image: linear-gradient( 122deg, #fa8688 0%, #fa8688 100%);
+    /* background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%); */
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -605,7 +610,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #fa8688;
     max-width: 650px;
     margin: 0 auto;
 }
